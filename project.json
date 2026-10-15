@@ -1,6 +1,19 @@
 {
-  "slug": "snaposint-snapchat-osint",
-  "url": "https://snaposint-0y2x.arcada.app/",
-  "title": "SnapOSINT - Advanced Snapchat Intelligence Platform",
-  "desc": "أداة OSINT متقدمة لتحليل حسابات Snapchat."
+  "name": "snaposint-snapchat-osint",
+  "title": "SnapOSINT — منصة استخبارات Snapchat",
+  "category": "OSINT",
+  "description": "منصة متقدمة لاستخبارات وتحليل حسابات Snapchat.",
+  "liveUrl": "https://snaposint-0y2x.arcada.app",
+  "aliases": [],
+  "sourceLinks": [],
+  "originalTitle": "SnapOSINT - Advanced Snapchat Intelligence Platform",
+  "originalDescription": "",
+  "type": "static-website",
+  "archivedAt": "2026-10-15",
+  "readyForHosting": true,
+  "files": [
+    "favicon.svg",
+    "assets/index-BXfIBnO9.js",
+    "assets/index-BgF1lWyy.css"
+  ]
 }

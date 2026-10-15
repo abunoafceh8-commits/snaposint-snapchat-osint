@@ -1,12 +1,45 @@
-# SnapOSINT - Advanced Snapchat Intelligence Platform
+# SnapOSINT — منصة استخبارات Snapchat
 
-أداة OSINT متقدمة لتحليل حسابات Snapchat.
+> **التصنيف:** OSINT · **المستودع:** `snaposint-snapchat-osint` · **الحالة:** جاهز للاستضافة الثابتة (Static Hosting)
 
-## Original URL
+منصة متقدمة لاستخبارات وتحليل حسابات Snapchat.
 
-https://snaposint-0y2x.arcada.app/
+## روابط الموقع الحي والأصول
+- https://snaposint-0y2x.arcada.app
 
-## Notes
+## روابط المصدر/التصميم المرجعية
+- —
 
-- Downloaded snapshot of the deployed application (HTML + bundled assets).
-- Generated/collected on 2026-10-15.
+## كيفية العمل / ملخص المشروع
+تم تنزيل لقطة كاملة من الموقع الحي (https://snaposint-0y2x.arcada.app) تشمل `index.html` وكل الأصول المحلية (JS/CSS/صور) بتاريخ 2026-10-15، وأصبح المشروع جاهزًا للاستضافة الثابتة مباشرة.
+
+- العنوان الأصلي في الموقع: `SnapOSINT - Advanced Snapchat Intelligence Platform`
+- الوصف الأصلي (Meta): منصة متقدمة لاستخبارات وتحليل حسابات Snapchat.
+- هذا مشروع ويب ثابت: افتح `index.html` مباشرة أو استضِف المجلد كاملًا على GitHub أو Vercel أو Netlify أو أي استضافة ثابتة بدون أي خطوة بناء (No build step).
+- كل الأصول المحلية التي كان الموقع يعتمد عليها موجودة داخل المستودع في نفس مساراتها الأصلية (`assets/` وغيرها) حتى يعمل الموقع بعد الاستضافة كما كان حيًا.
+
+## الملفات المضمّنة
+- `favicon.svg`
+- `assets/index-BXfIBnO9.js`
+- `assets/index-BgF1lWyy.css`
+- `README.md` — هذا الشرح
+- `project.json` — بيانات المشروع الوصفية بصيغة JSON
+- `SOURCE.md` — مصدر الأرشفة وتاريخها وملاحظات الأمان
+- `vercel.json` — إعداد استضافة جاهز لـ Vercel
+- `LICENSE` — رخصة MIT
+
+## التشغيل محليًا
+```bash
+python3 -m http.server 8000
+# ثم افتح http://localhost:8000
+```
+
+## الاستضافة على Vercel
+```bash
+npm i -g vercel
+vercel --prod
+```
+أو اربط هذا المستودع من لوحة Vercel وسيُنشر كموقع ثابت مباشرة.
+
+## تحذير الاستخدام المسؤول
+استخدم الأدوات في أغراض مشروعة فقط وبما يتوافق مع قوانين بلدك وشروط استخدام المنصات المعنية. لا تُستخدم أدوات OSINT/الأرشيف للتنمّر أو المضايقة أو انتهاك الخصوصية.
