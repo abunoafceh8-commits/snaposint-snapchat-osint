@@ -1,4 +1,15 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "framework": null,
+  "rewrites": [
+    { "source": "/api/investigate", "destination": "/api/investigate" },
+    { "source": "/api/snapchat-profile", "destination": "/api/snapchat-profile" },
+    { "source": "/api/cross-platform", "destination": "/api/cross-platform" },
+    { "source": "/api/deep-search", "destination": "/api/deep-search" },
+    { "source": "/api/email-intel", "destination": "/api/email-intel" },
+    { "source": "/api/google-dork", "destination": "/api/google-dork" },
+    { "source": "/api/username-analysis", "destination": "/api/username-analysis" },
+    { "source": "/api/web-archive", "destination": "/api/web-archive" }
+  ]
 }
