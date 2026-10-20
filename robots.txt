@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://snaposint-snapchat-osint.vercel.app/sitemap.xml
